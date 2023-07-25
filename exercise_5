@@ -1,0 +1,21 @@
+#Seeing the world
+#original order
+visits = ['amsterdam', 'new york','bali','nice','leiden']
+print(visits)
+
+visits = ['amsterdam', 'new york','bali','nice','leiden']
+print("Here is the original order list:")
+print(visits)
+
+print("\nHere is the sorted list:")
+print(sorted(visits))
+
+print("\nHere is the original list again:")
+print(visits)
+
+visits.reverse()
+print(visits)
+
+#Finding the length of a list
+visits = ['amsterdam', 'new york','bali','nice','leiden']
+len(visits)
